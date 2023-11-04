@@ -7,26 +7,26 @@
 #### Vision
 To achieve a way to instantly remove or stop a live video by analyzing if there is any bad content.
 #### How to Achieve?
-Analysis of any live video could be done in both visual and audio formats.
-So the Project is Devided into 2 parts first is video analysis and 2nd is Audio Analysis.
+1. Analysis of any live video could be done in both visual and audio formats.
+2. So the Project is Devided into 2 parts first is video analysis and 2nd is Audio Analysis.
 #### Limitation
-The limitation for this project is that there is no VULGAR dataset publicaly available.
-Also, since the data is very big to process and require a lot of computaional power, I will just be using a portion of data and upto 2 categories / classes.
+1. The limitation for this project is that there is no VULGAR dataset publicaly available.
+2. Also, since the data is very big to process and require a lot of computaional power, I will just be using a portion of data and upto 2 categories / classes.
 #### Solution
-So to solve this drawback I am using a genric dataset with day to day actions performed by humans. These are generally the things such as "Applying Makeup", "Writing on a board".
-For now the approach is to train the model with good data and see how the model performs, if the required dataset becomes available the model would be retrained according to it.
+1. So to solve this drawback I am using a genric dataset with day to day actions performed by humans. These are generally the things such as "Applying Makeup", "Writing on a board".
+2. For now the approach is to train the model with good data and see how the model performs, if the required dataset becomes available the model would be retrained according to it.
 #### Approach
-For Video
+1. For Video
 Using a pre-trained 3D CNN model for video data processing.Using R(2 + 1)D
 Video = Sequence of Frames(Images)
 Using the Sequence of frames to predict the category of action.
-For Audio
+2. For Audio
 I will extract audio from the video itself.
 Then I will be converting the audio file to text file.
 Then I will use Topic Modeling to get different patterns.
 And then analyze those patterns to find any anomaly.
 #### Main Libraries used
-OpenCV
-PyTorch
-SpeechRecogniton
-Librosa
+1. OpenCV
+2. PyTorch
+3. SpeechRecogniton
+4. Librosa
