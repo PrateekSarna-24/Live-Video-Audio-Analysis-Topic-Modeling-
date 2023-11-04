@@ -24,7 +24,7 @@ b. Video = Sequence of Frames(Images)
 
 c. Using the Sequence of frames to predict the category of action.
 
-3. For Audio
+2. For Audio
    
 a. I will extract audio from the video itself.
 
