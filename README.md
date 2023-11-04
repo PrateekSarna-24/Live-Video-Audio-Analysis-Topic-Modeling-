@@ -1,5 +1,7 @@
 # Live-Video-Audio-Analysis-Topic-Modeling-
-### Note : Every peice of code in this File has written During the Hackathon.
+### Note 
+1. Every peice of code in this File has written During the Hackathon.
+2. The Dataset used is UCF-101 is of 6GB.UCF101 - Action Recognition Data Set" which is a commonly used dataset for action recognition tasks. It contains videos of human actions collected from YouTube. The dataset is composed of 13,320 videos from 101 action categories. Each category contains at least 100 videos, and the total duration of the dataset is over 27 hours. It is frequently used for training and evaluating action recognition models and algorithms, especially in the field of computer vision and deep learning.
 ### This Project is Devided into 2 Parts
 1. Video Temporal Analysis
 2. Audio Analysis by Topic Modeling
