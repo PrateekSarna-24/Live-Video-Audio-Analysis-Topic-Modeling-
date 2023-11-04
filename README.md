@@ -17,14 +17,14 @@ To achieve a way to instantly remove or stop a live video by analyzing if there 
 2. For now the approach is to train the model with good data and see how the model performs, if the required dataset becomes available the model would be retrained according to it.
 #### Approach
 1. For Video
-Using a pre-trained 3D CNN model for video data processing.Using R(2 + 1)D
-Video = Sequence of Frames(Images)
-Using the Sequence of frames to predict the category of action.
+a. Using a pre-trained 3D CNN model for video data processing.Using R(2 + 1)D
+b. Video = Sequence of Frames(Images)
+c. Using the Sequence of frames to predict the category of action.
 2. For Audio
-I will extract audio from the video itself.
-Then I will be converting the audio file to text file.
-Then I will use Topic Modeling to get different patterns.
-And then analyze those patterns to find any anomaly.
+a. I will extract audio from the video itself.
+b. Then I will be converting the audio file to text file.
+c. Then I will use Topic Modeling to get different patterns.
+d. And then analyze those patterns to find any anomaly.
 #### Main Libraries used
 1. OpenCV
 2. PyTorch
